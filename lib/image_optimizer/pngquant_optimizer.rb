@@ -4,7 +4,7 @@ class ImageOptimizer
   private
 
     def command_options
-      flags = ['--skip-if-larger', '--speed=1',
+      flags = ['--skip-if-larger', '--speed=7',
                '--force', '--verbose', '--ext=.png']
 
       flags -= ['--verbose'] if quiet?
